@@ -1,0 +1,14 @@
+
+Клонировать репозиторий git clone <link>
+Скачать модули node npm install
+Добавить composer Composer i
+Запуск
+
+Создать файл конфигурации с примера Copy .env.example .env
+Файл .env
+- Отредактировать файл конфигурации
+
+Создать ключ приложения php artisan key:generate
+Мигрировать таблицы php artisan migrate
+Создание админа php artisan db:seed
+Запустить приложения npm run dev и php artisan serve
